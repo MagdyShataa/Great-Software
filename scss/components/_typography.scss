@@ -1,0 +1,22 @@
+.heading-line::before{
+  content: "";
+width: 270px;
+height: 1px;
+display: block;
+background-color: $primary;
+margin: 0 auto;
+}
+.heading-line::after {
+  content: "";
+  width: 270px;
+  height: 1px;
+  display: block;
+  background-color: $primary;
+  margin: 0 auto;
+}
+//border-right
+.border-right{
+  border-right: 0.9px solid $gray-500;
+  height: 100%;
+ 
+}

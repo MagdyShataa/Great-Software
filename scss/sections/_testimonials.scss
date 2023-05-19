@@ -1,0 +1,70 @@
+@import '../custom';
+@import '../components/mixins';
+@import '../components/animations';
+@import '../components/typography';
+
+
+
+
+.testimonilas {
+  position: relative;
+  @include gradient;
+  padding: 0;
+
+  &_card {
+    background-color: rgba($white , 0.9);
+    padding: 40px 15px;
+    border-radius: 5px 5px;
+    height: auto;
+    text-align: center;
+
+    i {
+      font-size: 25px;
+      color: rgba($primary, 0.6);
+    }
+
+    .ratengs {
+
+      i {
+        color: rgba($primary, 0.7);
+        font-size: 16px;
+padding-bottom: 13px;
+      }
+    }
+  }
+
+  &_imge {
+    width: 6rem;
+    height: 8rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    img {
+      border: 3px solid rgba($primary, 0.7);
+    }
+  }
+
+
+
+
+  &_name {
+    padding-top: 6px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: $white ;
+    font-weight: 500;
+
+
+  h3 {
+    padding-top: 40px;
+    color: $white ;
+  }
+
+  p {
+    color: $white ;
+    text-transform: capitalize;
+  }
+ }
+
+}

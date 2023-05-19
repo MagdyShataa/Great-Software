@@ -1,0 +1,35 @@
+
+
+
+@import './vendor';
+@import './components/animations';
+@import './components/buttons';
+@import './components/mixins';
+@import './components/typography';
+
+@import './sections/campanies';
+@import './sections/faq';
+@import './sections/footer';
+@import './sections/get-started';
+@import './sections/intro-section';
+@import './sections/navbar';
+@import './sections/portfolio';
+@import './sections/services';
+
+@import './sections/testimonials';
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap 
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+
+// 8. Add additional custom code here
+@import '/node_modules/bootstrap/scss/bootstrap.scss';

@@ -1,0 +1,62 @@
+@import '../custom';
+@import '../components/mixins';
+@import '../components/animations';
+@import '../components/typography';
+
+.menu {
+ @include gradient;
+li{
+  padding: 0px 5px;
+  a{
+    color: $white!important;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+}
+}
+
+#hero {
+  min-height: 100vh;
+
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+  h1{
+    color:$white ;
+    text-transform: capitalize;
+  }
+p{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 18px;
+  color: $white;
+  font-style: italic;
+}
+bottom{
+  padding:10px 17px ;
+@keyframes pulse-border {
+    0% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(1.5);
+    }
+
+  }
+}
+}
+
+
+  #border-animation{
+position: absolute;
+height: 25px;
+width: 25px;
+border:1px solid $white;
+  }
+#screenshot{
+  background-color:$white ;
+  h1{
+    color:$primary;
+  }
+}
+
